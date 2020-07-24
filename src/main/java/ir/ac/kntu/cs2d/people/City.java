@@ -7,7 +7,7 @@ public class City extends Person{
     private CityGun gun;
 
     public City() {
-        this.colt;
+        this.colt=new Colt(500,24,340,2.2f,12);
     }
 
     public Colt getColt() {

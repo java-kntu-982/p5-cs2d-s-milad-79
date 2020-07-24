@@ -10,6 +10,14 @@ public class Gun {
     public Gun() {
     }
 
+    public Gun(int prize, int damage, int fireAgain, float reload, int magazineCapacity) {
+        this.prize = prize;
+        this.damage = damage;
+        this.fireAgain = fireAgain;
+        this.reload = reload;
+        this.magazineCapacity = magazineCapacity;
+    }
+
     public int getPrize() {
         return prize;
     }

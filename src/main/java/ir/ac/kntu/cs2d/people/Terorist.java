@@ -8,7 +8,7 @@ public class Terorist extends Person{
     private boolean bomb;
 
     public Terorist() {
-        this.colt.usp();
+        this.colt=new Colt(400,21,300,2.3f,20);
     }
 
     public Colt getColt() {

@@ -3,6 +3,11 @@ package ir.ac.kntu.cs2d.Guns;
 public class Colt extends Gun {
     public Colt() {
     }
+
+    public Colt(int prize, int damage, int fireAgain, float reload, int magazineCapacity) {
+        super(prize, damage, fireAgain, reload, magazineCapacity);
+    }
+
     public void glock(){
         this.setPrize(400);
         this.setDamage(21);
